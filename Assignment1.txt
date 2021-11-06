@@ -1,0 +1,74 @@
+                                                 Assignment 1:To find weather the given Alphabet is vowel or not.
+                                                            2:To convert the Alphabet to Uppercase.
+                                                            3:To convert the Alphabet to LowerCase.
+1.Vowel or consonant:
+package org;
+public class VowelConsonant{
+public static void main(String[] args){
+char a='5';
+if(character.isAlphabetic(c))
+{
+  if(a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
+{
+   System.out.println(a+"is a vowel");
+}
+else{
+       System.out.println(a+" is a consonant");
+}
+}
+}
+***********************************************************************************************************************************************************************
+2.Upper case:
+package org;
+public class Uppercase{
+public static void main(String[] args) {
+char a='S';
+char b=Character.toUpperCase(a);
+if(Character.isUpperCase(b))
+{
+System.out.println(b+"is an upper case");
+}
+}
+}
+***********************************************************************************************************************************************************************
+3.Lower case:
+public class Lowercase{
+public static void main(String[] args) {
+char a='S';
+char b=Character.toLowerCase(a);
+if(Character.isLowercase(b))
+{
+   System.out.println(b+"is a lower case alpha");
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
